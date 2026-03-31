@@ -2,7 +2,7 @@
 
 This is my submission for **Frontend Challenge #1 - TechChowk Landing Page**.
 
-**[View Live Demo](#)**
+**[View Live Demo](https://anishniroula.github.io/frontend-challenges/techchowk-landing-page/index.html)**
 
 ---
 
@@ -14,9 +14,8 @@ This is my submission for **Frontend Challenge #1 - TechChowk Landing Page**.
 
 ## Screenshots
 
-![Desktop Screenshot](./assets/desktop-preview.png)
-
-![Mobile Screenshot](./assets/mobile-preview.png)
+![Desktop Screenshot](./assets/TechChowk-Landing-Page-Desktop.png)
+![Mobile Screenshot](./assets/TechChowk-Landing-Page-Mobile.png)
 
 ---
 

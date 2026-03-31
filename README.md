@@ -4,9 +4,9 @@ A collection of responsive frontend projects I built to sharpen my development s
 
 ## Projects
 
-| Project Name               | Tech Stack    | Live Demo      | Source                           |
-| :------------------------- | :------------ | :------------- | :------------------------------- |
-| **TechChowk Landing Page** | HTML, CSS, JS | [View Live](#) | [Code](./techchowk-landing-page) |
+| Project Name               | Tech Stack    | Live Demo                                                                                         | Source                           |
+| :------------------------- | :------------ | :------------------------------------------------------------------------------------------------ | :------------------------------- |
+| **TechChowk Landing Page** | HTML, CSS, JS | [View Live](https://anishniroula.github.io/frontend-challenges/techchowk-landing-page/index.html) | [Code](./techchowk-landing-page) |
 
 ---
 
