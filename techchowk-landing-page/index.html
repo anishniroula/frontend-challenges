@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechChowk Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">TechChowk</h1>
+
+      <nav id="nav-menu">
+        <a href="#" class="active-link">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Join Us</a>
+      </nav>
+
+      <button id="menu-toggle" onclick="menuToggle()">
+        <span class="material-symbols-outlined" id="menu-icon"> menu </span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-content">
+          <h1>Where Tech Meets <span class="itallic-text">Community</span>.</h1>
+          <p>
+            A structured sanctuary for creators, developers, and designers to
+            learn in public and grow together. Join the digital hearth today.
+          </p>
+          <div class="members-card">
+            <span class="members-count">1000+</span>
+            <span class="info-label">ACTIVE MEMBERS GLOBALLY</span>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="./assets/hero-image.png" alt="Image of connected nodes" />
+          <div class="overlay-text">div</div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <h2>About <span style="color: #d32f2f">TechChowk</span></h2>
+        <p class="subtext">
+          We are a grassroots community of digital builders who believe that
+          learning is a communal act, best done around a shared spark of
+          curiosity.
+        </p>
+        <div class="about-cards">
+          <div class="about-card-item">
+            <div class="icon">
+              <span class="material-symbols-outlined"> history_edu </span>
+            </div>
+            <h3>Our Journey</h3>
+            <p>
+              What started as a small group of three developers sharing weekly
+              snippets has evolved into a thriving ecosystem. We realized that
+              traditional online forums were too noisy and impersonal, so we
+              built TechChowk—a "digital hearth" where real connections happen.
+            </p>
+          </div>
+          <div class="about-card-item">
+            <div class="icon">
+              <span class="material-symbols-outlined"> visibility </span>
+            </div>
+            <h3>Our Vision</h3>
+            <p>
+              We envision a world where every aspiring tech creator has access
+              to a supportive, high-signal community. We're about collaborative
+              growth, peer-to-peer mentorship, and building products that matter
+              in an environment free of ego.
+            </p>
+          </div>
+          <div class="about-card-item">
+            <div class="icon">
+              <span class="material-symbols-outlined"> trending_up </span>
+            </div>
+            <h3>Our Impact</h3>
+            <p>
+              To date, we've helped hundreds of members transition into senior
+              roles and ship their first SaaS products. By focusing on
+              structured challenges, we turn potential into tangible digital
+              reality.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <h2>How we <span style="color: #d32f2f">evolve</span> together</h2>
+        <p class="subtext">
+          A cleaner, structured approach to collective digital growth.
+        </p>
+        <div class="feature-cards">
+          <div class="feature-card-item">
+            <div class="icon">
+              <span class="material-symbols-outlined"> school </span>
+            </div>
+            <h3>Peer learning</h3>
+            <p>
+              No hierarchies here. Share your knowledge through curated study
+              circles and collaborative documentation.
+            </p>
+          </div>
+          <div class="feature-card-item">
+            <div class="icon">
+              <span class="material-symbols-outlined"> rocket_launch </span>
+            </div>
+            <h3>Weekly Challenges</h3>
+            <p>
+              Sharpen your skills with structured prompts designed to push your
+              boundaries in code and design.
+            </p>
+          </div>
+          <div class="feature-card-item">
+            <div class="icon">
+              <span class="material-symbols-outlined"> hub </span>
+            </div>
+            <h3>Networking</h3>
+            <p>
+              Connect with industry leaders and fellow hobbyists in a
+              low-pressure, high-value digital environment.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" id="cta">
+        <div class="cta-card">
+          <h2>Ready to evolve together?</h2>
+          <p>
+            Join our community today and get the support system you deserve.
+          </p>
+          <a href="#" class="join">
+            <img src="./assets/Discord-Symbol-White.svg" alt="Discord Logo" />
+            Join TechChowk Now
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Made for TechChowk.</p>
+    </footer>
+
+    <script>
+      const btn = document.getElementById("menu-toggle");
+      const icon = document.getElementById("menu-icon");
+      const nav = document.getElementById("nav-menu");
+
+      function menuToggle() {
+        if (icon.innerHTML.includes("menu")) {
+          icon.innerHTML = " close ";
+          nav.style.display = "flex";
+        } else {
+          icon.innerHTML = "menu";
+          nav.style.display = "none";
+        }
+      }
+
+      function updateNavForScreenSize() {
+        if (window.innerWidth >= 1024) {
+          icon.innerHTML = " close ";
+          nav.style.display = "flex";
+        } else {
+          icon.innerHTML = "menu";
+          nav.style.display = "none";
+        }
+      }
+      updateNavForScreenSize();
+      window.addEventListener("resize", updateNavForScreenSize);
+    </script>
+  </body>
+</html>
