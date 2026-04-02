@@ -12,11 +12,6 @@ This is my submission for **Frontend Challenge #1 - TechChowk Landing Page**.
 - **CSS** (Flexbox/Grid & Custom Properties)
 - **JavaScript** (For theme toggling/animations)
 
-## Screenshots
-
-![Desktop Screenshot](./assets/TechChowk-Landing-Page-Desktop.png)
-![Mobile Screenshot](./assets/TechChowk-Landing-Page-Mobile.png)
-
 ---
 
 ## Challenge Description
@@ -41,3 +36,20 @@ Your task is to build a modern, responsive landing page for our community, TechC
 3. Post the link to live website & GitHub repo in this channel. Include a desktop and mobile screenshot of your website.
 
 ---
+
+## Project Screenshots
+
+<details>
+<summary>Desktop Screenshot - Click to expand</summary>
+
+![Desktop Screenshot](./assets/TechChowk-Landing-Page-Desktop.png)
+
+</details>
+
+<details>
+
+<summary>Mobile Screenshot - Click to expand</summary>
+
+![Mobile Screenshot](./assets/TechChowk-Landing-Page-Mobile.png)
+
+</details>

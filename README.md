@@ -8,6 +8,12 @@ A collection of responsive frontend projects I built to sharpen my development s
 | :------------------------- | :------------ | :------------------------------------------------------------------------------------------------ | :------------------------------- |
 | **TechChowk Landing Page** | HTML, CSS, JS | [View Live](https://anishniroula.github.io/frontend-challenges/techchowk-landing-page/index.html) | [Code](./techchowk-landing-page) |
 
+### roadmap.sh Projects
+
+| Project Name           | Tech Stack | Live Demo                                                                                                | Source                                  |
+| :--------------------- | :--------- | :------------------------------------------------------------------------------------------------------- | :-------------------------------------- |
+| **Basic HTML Website** | HTML       | [View Live](https://anishniroula.github.io/frontend-challenges/roadmap-sh/basic-html-website/index.html) | [Code](./roadmap-sh/basic-html-website) |
+
 ---
 
 ## Repository Structure
@@ -15,7 +21,8 @@ A collection of responsive frontend projects I built to sharpen my development s
 ```text
 frontend-challenges/
 ├── techchowk-landing-page/   # TechChowk Community Landing Page
-└── README.md               # Main repository overview
+├── roadmap-sh/               # Projects from roadmap.sh/frontend/projects
+└── README.md                 # Main repository overview
 ```
 
 ## How to run locally
@@ -23,3 +30,5 @@ frontend-challenges/
 1. Clone the repo: `git clone https://github.com/anishniroula/frontend-challenges.git`
 2. Navigate to the project: `cd techchowk-landing-page`
 3. Open `index.html` in your browser.
+
+###### Last Updated: April 01, 2026
